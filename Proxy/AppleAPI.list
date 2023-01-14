@@ -1,0 +1,66 @@
+## 最后更新 2023-01-14
+
+# 以下参见 https://github.com/geekdada/surge-list/blob/master/surgio-snippet/apple.tpl
+# 一些 com.apple.appstored* 会连接的 API（优先级高）
+DOMAIN,guzzoni.apple.com
+DOMAIN,apps.apple.com
+DOMAIN,xp.apple.com
+DOMAIN,bag.itunes.apple.com
+DOMAIN,api-edge.apps.apple.com
+DOMAIN,api.apps.apple.com
+DOMAIN,play.itunes.apple.com
+DOMAIN,se.itunes.apple.com
+DOMAIN,se-edge.itunes.apple.com
+DOMAIN,su.itunes.apple.com
+DOMAIN,upp.itunes.apple.com
+DOMAIN,beta.music.apple.com
+DOMAIN-KEYWORD,buy.itunes.apple.com
+DOMAIN-SUFFIX,itunes-apple.com.akadns.net
+# iMessage
+DOMAIN-SUFFIX,ess.apple.com
+# Apple Music
+DOMAIN-SUFFIX,music.apple.com
+DOMAIN-SUFFIX,sonos-music.apple.com
+# Configuration
+DOMAIN,configuration.apple.com
+# Others
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,itunes.apple.com
+# DOMAIN-SUFFIX,apple
+DOMAIN,weather-analytics-events.apple.com
+# iCloud 上传和下载
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,me.com
+# DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+
+# 以下参见 https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Global.list
+# Apple URL Shortener
+DOMAIN-SUFFIX,appsto.re
+# Spotlight
+DOMAIN-SUFFIX,smoot.apple.com
+# Podcasts
+DOMAIN,amp-api.podcasts.apple.com
+# Apple Music Web
+DOMAIN,beta.music.apple.com
+# iBooks Store download
+DOMAIN,books.itunes.apple.com
+# Apple Music Radio
+DOMAIN,radio.itunes.apple.com
+# > Web Preview
+DOMAIN,apps.apple.com
+DOMAIN,books.apple.com
+DOMAIN,itunes.apple.com
+DOMAIN,tv.apple.com
+# > News
+DOMAIN,gateway.icloud.com
+DOMAIN-SUFFIX,apple.news
+DOMAIN,news-assets.apple.com
+DOMAIN,news-client.apple.com
+DOMAIN,news-client-search.apple.com
+DOMAIN,news-edge.apple.com
+DOMAIN,news-events.apple.com
+DOMAIN,apple.comscoreresearch.com
