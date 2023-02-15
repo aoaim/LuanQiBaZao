@@ -11,9 +11,9 @@ systemctl enable --now haveged
 systemctl enable --now vnstat
 
 # allow ssh root
-sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
-sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
-systemctl restart sshd
+# sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
+# sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
+# systemctl restart sshd
 
 # limits
 cp /etc/security/limits.conf /etc/security/limits.conf.bak
