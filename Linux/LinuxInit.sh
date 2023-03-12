@@ -27,7 +27,7 @@ if [ -f /etc/systemd/system.conf ]; then
 fi
 
 # timezone
-ln -sf /usr/share/zoneinfo/Asia/Singapore /etc/localtime && echo "Asia/Hong_Kong" >/etc/timezone
+# ln -sf /usr/share/zoneinfo/Asia/Singapore /etc/localtime && echo "Asia/Hong_Kong" >/etc/timezone
 
 # systemd-journald
 sed -i 's/^#\?Storage=.*/Storage=volatile/' /etc/systemd/journald.conf
