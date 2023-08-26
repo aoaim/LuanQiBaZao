@@ -1,0 +1,7 @@
+#!name=Bing Edge UA
+
+[MITM]
+hostname = %APPEND% *.bing.com, bing.com
+
+[Script]
+bing-edge-ua = type=http-request,pattern=^http(s)?:\/\/(?:.*\.)?bing\.com,script-path=https://gist.githubusercontent.com/aoaim/ee306e929f48a5f96347e6e55be64357/raw/c2c4291e6a367cb22d9b51e537096b77bd221ddf/edge-useragent.js,requires-body=false
